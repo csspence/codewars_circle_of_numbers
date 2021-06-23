@@ -23,8 +23,6 @@ Constraints: 0 ≤ firstNumber ≤ n - 1
 [output] an integer
 */
 
-function circleOfNumbers(n, firstNumber) {
-  //coding and coding..
-  
-  
+const circleOfNumbers = (n, firstNumber) => {
+  return (firstNumber + n/2) % n;
 }
